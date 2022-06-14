@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    color: black;
+  }
+
+.body-page {
+  min-height: 100%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color:gainsboro;
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-item {
+  padding: 15px 20px;
+  list-style: none;
+}
+
+.nav-item:hover {
+  background-color: cornsilk;
+  transition: all 0.3s ease 0.3s;
+}
+
+.first-block {
+  display: grid;
+  margin: 50px;
+  grid-template-columns: 250px 400px;
+  justify-items: center;
+  gap: 30px;
+}
+
+.photo {
+  width: 200px;
+}
+
+.photo-1{
+  width: 300px;
+  border: 2px solid cornsilk;
+}
+
+.main-title {
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+.paragraph-for-h1 {
+  border-bottom: 2px solid gray;
+  font-size: 24px;
+}
+
+.section-title {
+  border-bottom: 2px solid gray;
+  margin-bottom: 20px;
+}
+
+.work-text {
+  margin-bottom: 20px;
+}
+
+.work-list {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.work-list li {
+  padding-top: 10px;
+}
+
+.footer-page {
+  display: grid;
+  grid-template-columns: 120px 200px 200px;
+  background-color:gainsboro;
+  justify-content:space-between;
+  height: 100px;
+}
+
+.footer-image {
+  width: 100px;
+  display: block;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.footer-text {
+  font-weight: bold;
+  font-size: 32px;
+  color:dimgray;
+  margin-top: 30px;
+}
+
+.footer-github {
+  font-weight: bold;
+  font-size: 32px;
+  margin-top: 30px;
+}
